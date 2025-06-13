@@ -1,0 +1,55 @@
+.carousel-item {
+      height: 90vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .slide-1 {
+      height: 600px;
+      background-image: url('villa.jpg');
+    }
+
+    .slide-2 {
+      height: 600px;
+      background-image: url('private_poll.jpg');
+    }
+
+    .slide-3 {
+      height: 600px;
+      background-image: url('Mountainside_Luxury_Villa.jpg');
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .carousel-caption {
+      bottom: 30%;
+    }
+
+    .carousel-caption h1 {
+      font-size: 3rem;
+      color: #ffffff;
+    }
+
+    .carousel-caption p {
+      color: #f8f9fa;
+      font-size: 1.25rem;
+    }
+
+    .carousel-caption .btn {
+      background-color: #f59e0b;
+      border: none;
+    }
+
+    .carousel-caption .btn:hover {
+      background-color: #d97706;
+    }
+
+
